@@ -28,3 +28,16 @@ git add beta.txt
 git commit -m datos gamma
 git push origin RamaBeta
 
+respuesta alfa:
+G-¿que debió hacer(todos los comandos) en el punto 8 para poder hacer lo pedido?
+git remote add upstream https://github.com/BetaEquip115/TP_SO_i3_Equipo_115.git
+git fetch upstream
+git checkout RamaBeta
+git rebase upstream/RamaBeta
+echo "Nombre: Juan Pablo Dongo Huaman" >> beta.txt
+echo "Ifconfig:" >> beta.txt
+ifconfig >> beta.txt
+echo "Hora: 16:29:50" >> beta.txt
+git add .
+git commit -m "ALFA Punto 8)"
+git push origin RamaBeta
